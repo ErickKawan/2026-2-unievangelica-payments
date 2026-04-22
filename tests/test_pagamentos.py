@@ -1,12 +1,10 @@
 import pytest
-
 from app.pagamentos import (
     calcular_desconto,
     aplicar_juros_atraso,
     validar_metodo_pagamento,
     processar_reembolso,
 )
-
 
 def test_calcular_desconto():
     # Arrange
@@ -18,7 +16,6 @@ def test_calcular_desconto():
 
     # Assert
     assert resultado == 90
-
 
 def test_aplicar_juros_atraso():
     # Arrange
